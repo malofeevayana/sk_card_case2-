@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    color: #0d0417;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .card-container {
+    box-sizing: border-box;
+    min-width: 1366px;
+    max-width: 1366px;
+    padding: 98px;
+  }
+  .card {
+    display: flex;
+  }
+  .card__img-container {
+    margin-right: 30px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .card__info-container {
+    border-radius: 8px;
+    background: #f5f5f5;
+  }
+  .card-info {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows:
+      repeat (3, auto) 1fr
+      repeat (2, auto);
+    padding: 35px 30px;
+  }
+  .card-info__code {
+    color: #787878;
+  }
+  .card-info__title {
+    color: #0d0417;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+  }
+  .card-info__price-and-rate-block {
+    display: flex;
+    align-items: center;
+  }
+  .card-info__price {
+    margin-right: 30px;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .card-info__stars {
+    margin-right: 15px;
+  }
+  .card-info__subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .card-info__text {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .data-list__row {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+  }
+  .data-list dt {
+    color: #787878;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .data-list dd {
+    color: #0d0417;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .card-info__button-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-info__button {
+    width: 194px;
+    height: 49px;
+    background: #f8d456;
+    border-radius: 6px;
+    color: #0d0417;
+    border: none;
+  }
+  .card-info__link-to-shop {
+    color: #0d0417;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 30px;
+  }
+  .link {
+    color: #0d0417;
+    text-decoration: none;
+    outline: none;
+  }
+  .link:focus {
+    text-decoration-line: underline;
+    text-decoration-color: #f8d456;
+    text-decoration-thickness: 2px;
+  }
+  .button {
+    box-sixing: border-box;
+  }
+  .button:hover {
+    background-color: #fff;
+    border: 2px solid #f8d456;
+  }
+  .button:focus {
+    border: 1px solid #0d0417;
+    background: #f8d456;
+  }
+  .button:hover,
+  .button:focus {
+    transition: all 0.5s ease-in;
+  }
